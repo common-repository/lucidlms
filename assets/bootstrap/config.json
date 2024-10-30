@@ -1,0 +1,24 @@
+{
+  "vars": {},
+  "css": [
+    "forms.less",
+    "buttons.less",
+    "glyphicons.less",
+    "button-groups.less",
+    "input-groups.less",
+    "panels.less",
+    "component-animations.less",
+    "dropdowns.less",
+    "tooltip.less",
+    "modals.less"
+  ],
+  "js": [
+    "dropdown.js",
+    "modal.js",
+    "tooltip.js",
+    "tab.js",
+    "collapse.js",
+    "transition.js"
+  ],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=a2ede43ea43018ac4d74"
+}

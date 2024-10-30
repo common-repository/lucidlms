@@ -1,0 +1,373 @@
+.lucidlms {
+  /* Courses page */
+  /* Single course */
+  /* Single course element */
+  /* Questions area */
+}
+
+.lucidlms img,
+.lucidlms video,
+.lucidlms embed,
+.lucidlms object,
+.lucidlms button,
+.lucidlms input,
+.lucidlms select,
+.lucidlms textarea {
+  max-width: 100%;
+  transition: all 0.7s;
+}
+
+.lucidlms ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lucidlms .handle-area:not(.questions) {
+  text-align: center;
+}
+
+.lucidlms .entry-thumbnail {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.lucidlms .alert {
+  color: red;
+}
+
+.lucidlms.site-content article a.entry-header {
+  display: block;
+  overflow: hidden;
+}
+
+.lucidlms.site-content article a.entry-header img {
+  float: left;
+  margin-right: 30px;
+}
+
+.lucidlms.site-content article a.entry-header h3 {
+  overflow: hidden;
+  clear: none;
+}
+
+.lucidlms .lucidlms-info {
+  margin-bottom: 25px;
+  padding-top: 10px;
+  text-align: center;
+  clear: both;
+}
+
+.lucidlms .lucidlms-info .lucidlms-note {
+  display: block;
+  font-weight: 300;
+  margin-bottom: 15px;
+  font-style: italic;
+  color: #707070;
+}
+
+.lucidlms .lucidlms-info button,
+.lucidlms .lucidlms-info input[type="submit"] {
+  display: inline-block;
+}
+
+.lucidlms .lucidlms-info#element-completed {
+  padding-top: 40px;
+}
+
+.lucidlms .lucidlms-info a.back {
+  margin-right: 10px;
+}
+
+.lucidlms article a.entry-header img {
+  float: left;
+  margin-right: 30px;
+}
+
+.lucidlms article a.entry-header h3 {
+  overflow: hidden;
+  clear: none;
+}
+
+.lucidlms article .excerpt {
+  overflow: hidden;
+}
+
+.lucidlms article .excerpt.one-line {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.lucidlms article .excerpt.hidden {
+  display: none;
+}
+
+.lucidlms article .see-more {
+  padding-left: 20px;
+}
+
+.lucidlms article .read-more {
+  float: right;
+}
+
+.lucidlms article .entry-meta {
+  margin-bottom: 15px;
+}
+
+.lucidlms .course-category article.hentry .entry-content {
+  margin-bottom: 15px;
+  float: none;
+  width: 100%;
+}
+
+.lucidlms article .entry-content embed, .lucidlms article .entry-content iframe, .lucidlms article .entry-content object, .lucidlms article .entry-content video {
+  display: block;
+  margin: 0 auto;
+}
+
+.lucidlms article.hentry {
+  padding: 0;
+  overflow: hidden;
+}
+
+.lucidlms .course-category .expand a {
+  position: relative;
+  text-decoration: none;
+}
+
+.lucidlms .course-category .expand a.open .arrow-icon {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.lucidlms .course-category .expand a:hover {
+  text-decoration: none;
+}
+
+.lucidlms .course-category .expand a .arrow-icon {
+  position: absolute;
+  right: 0;
+  line-height: 39px;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+
+.lucidlms .no-excerpt {
+  display: none;
+}
+
+.lucidlms #course-start {
+  padding: 15px 0;
+}
+
+.lucidlms .course-elements {
+  padding-bottom: 25px;
+}
+
+.lucidlms .course-elements .content-icon {
+  width: 20px;
+}
+
+.lucidlms #course-element-complete {
+  padding: 15px 0;
+  display: none;
+}
+
+.lucidlms #course-element-complete.show {
+  display: block;
+}
+
+.lucidlms .course_element .course-navigation {
+  margin: 0 0 15px 0;
+}
+
+.lucidlms .questions-container {
+  display: none;
+}
+
+.lucidlms .questions-container .questions-pagination li {
+  padding: 0 3px;
+  display: inline-block;
+}
+
+.lucidlms .questions-container .questions-pagination li.current {
+  background: lightgray;
+}
+
+.lucidlms .questions-container .review-questions li {
+  margin-bottom: 10px;
+}
+
+.lucidlms .questions-container .review-questions li .question-title,
+.lucidlms .questions-container .review-questions li .question-user-answer {
+  display: block;
+}
+
+.lucidlms .questions-container .review-questions li .question-title {
+  font-weight: bold;
+}
+
+.lucidlms .questions-container .review-questions li .no-answer {
+  color: red;
+}
+
+.lucidlms .questions-container .questions-nav {
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+.lucidlms .questions-container .questions-nav li {
+  float: right;
+  margin-right: 15px;
+}
+
+.lucidlms .questions-container .lucid-warning {
+  width: auto;
+  margin: 25px 0 0;
+  padding: 1em 2em 1em 1em;
+  position: relative;
+  background-color: #f7f6f7;
+  color: #515151;
+  border-top: 3px solid #b81c23;
+}
+
+.lucidlms .questions-container .lucid-warning .fa {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  padding-top: 3px;
+  color: #b81c23;
+  border: 1px solid #b81c23;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.lucidlms .questions-loading-screen {
+  display: table;
+  min-height: 350px;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.lucidlms .questions-loading-screen i {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.lucidlms .questions-loading-screen .start-quiz-screen {
+  display: none;
+  vertical-align: middle;
+  opacity: 0;
+}
+
+.lucidlms .questions-loading-screen .start-quiz-screen.show {
+  display: table-cell;
+}
+
+.lucidlms .quiz-completed {
+  display: none;
+  vertical-align: middle;
+  opacity: 0;
+}
+
+.lucidlms .quiz-completed li {
+  margin-bottom: 10px;
+}
+
+.lucidlms .quiz-completed li .question-title,
+.lucidlms .quiz-completed li .question-user-answer {
+  display: block;
+}
+
+.lucidlms .quiz-completed li .question-title {
+  font-weight: bold;
+}
+
+.lucidlms .quiz-completed li .question-is-correct.incorrect {
+  color: red;
+}
+
+.lucidlms .quiz-completed li .question-is-correct.correct {
+  color: green;
+}
+
+.lucidlms .lucidlms-bbp-course-forum a {
+  text-decoration: none;
+}
+
+.lucidlms .lucidlms-bbp-course-forum a button {
+  margin: 25px auto 0;
+  display: block;
+}
+
+.single-course #bbpress-forums .bbp-author-avatar,
+.single-forum #bbpress-forums .bbp-author-avatar {
+  display: none;
+}
+
+.single-course #bbpress-forums .lucidlms-bbp-course-top,
+.single-course #bbpress-forums .lucidlms-bbp-forum-top,
+.single-forum #bbpress-forums .lucidlms-bbp-course-top,
+.single-forum #bbpress-forums .lucidlms-bbp-forum-top {
+  overflow: hidden;
+  margin: 0 0 25px;
+}
+
+.single-course #bbpress-forums .lucidlms-bbp-course-top .lucidlms-bbp-new-topic,
+.single-course #bbpress-forums .lucidlms-bbp-forum-top .lucidlms-bbp-new-topic,
+.single-forum #bbpress-forums .lucidlms-bbp-course-top .lucidlms-bbp-new-topic,
+.single-forum #bbpress-forums .lucidlms-bbp-forum-top .lucidlms-bbp-new-topic {
+  float: right;
+}
+
+.single-course #bbpress-forums .lucidlms-bbp-course-top .lucidlms-bbp-new-topic button,
+.single-course #bbpress-forums .lucidlms-bbp-forum-top .lucidlms-bbp-new-topic button,
+.single-forum #bbpress-forums .lucidlms-bbp-course-top .lucidlms-bbp-new-topic button,
+.single-forum #bbpress-forums .lucidlms-bbp-forum-top .lucidlms-bbp-new-topic button {
+  float: right;
+}
+
+.single-course #bbpress-forums .lucidlms-bbp-forum-title {
+  float: left;
+  width: 75%;
+  margin: 0;
+}
+
+.single-course #bbpress-forums .lucidlms-bbp-new-topic {
+  width: 25%;
+}
+
+.single .lucidlms article.course .entry-content, .single .lucidlms article.course_element .entry-content {
+  float: none;
+  width: 100%;
+}
+
+.single-forum #bbpress-forums .lucidlms-bbp-forum-top .lucidlms-bbp-new-topic,
+.single-forum #bbpress-forums .lucidlms-bbp-forum-top .lucidlms-bbp-back-to-course {
+  width: 50%;
+}
+
+.single-forum #bbpress-forums .lucidlms-bbp-forum-top .lucidlms-bbp-back-to-course {
+  float: left;
+  font-size: 1.4em;
+}
+
+.single-forum #bbpress-forums #subscription-toggle {
+  float: right;
+}
+
+.goto-course {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.goto-course:after {
+  clear: both;
+  content: '';
+  display: block;
+}

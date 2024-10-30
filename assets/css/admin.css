@@ -1,0 +1,843 @@
+.cf {
+  clear: both; }
+
+.loading {
+  position: relative; }
+  .loading:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/ajax-loader.gif) center no-repeat rgba(255, 255, 255, 0.75);
+    z-index: 999; }
+
+/**
+ * Meta box fields
+ */
+body.edit-php.post-type-score_card .view-switch,
+body.edit-php.post-type-score_card p.search-box {
+  display: none; }
+body.edit-php.post-type-score_card .tablenav .actions {
+  overflow: inherit; }
+
+body.post-php.post-type-score_card #minor-publishing-actions,
+body.post-php.post-type-score_card .misc-pub-visibility,
+body.post-php.post-type-score_card .misc-pub-curtime,
+body.post-new-php.post-type-score_card #minor-publishing-actions,
+body.post-new-php.post-type-score_card .misc-pub-visibility,
+body.post-new-php.post-type-score_card .misc-pub-curtime {
+  display: none; }
+
+body.post-type-course .wp-editor-container iframe#content_ifr,
+body.post-type-course_element.quiz .wp-editor-container iframe#content_ifr {
+  height: 174px !important; }
+
+fieldset {
+  border: none; }
+
+.input-group.date input[type="text"] {
+  width: 100% !important; }
+
+.updated.fade,
+.error.fade {
+  opacity: 1; }
+
+.lucidlms .forminp-checkbox-single label {
+  margin: 0 !important; }
+
+.lucidlms-options .course-element .panel-body-inner,
+.lucidlms-options .question .panel-body-inner,
+.lucidlms-question-pool .course-element .panel-body-inner,
+.lucidlms-question-pool .question .panel-body-inner {
+  display: flex;
+  justify-content: space-between; }
+.lucidlms-options .course-element .course-element-info-wrap,
+.lucidlms-options .course-element .question-info-wrap,
+.lucidlms-options .question .course-element-info-wrap,
+.lucidlms-options .question .question-info-wrap,
+.lucidlms-question-pool .course-element .course-element-info-wrap,
+.lucidlms-question-pool .course-element .question-info-wrap,
+.lucidlms-question-pool .question .course-element-info-wrap,
+.lucidlms-question-pool .question .question-info-wrap {
+  flex-basis: 35%;
+  flex-grow: 1; }
+
+.lucidlms-options {
+  border-bottom: dashed 1px #EDEDED;
+  padding-bottom: 20px; }
+  .lucidlms-options:last-child {
+    border-bottom: none;
+    padding-bottom: 0; }
+  .lucidlms-options p {
+    margin: 9px 0 9px; }
+  .lucidlms-options .course-element .panel-body-inner, .lucidlms-options .question .panel-body-inner {
+    display: flex;
+    justify-content: space-between; }
+  .lucidlms-options .course-element .course-element-info-wrap, .lucidlms-options .course-element .question-info-wrap, .lucidlms-options .question .course-element-info-wrap, .lucidlms-options .question .question-info-wrap {
+    flex-basis: 35%;
+    flex-grow: 1; }
+  .lucidlms-options p.form-field, .lucidlms-options fieldset.form-field {
+    overflow: hidden;
+    padding: 5px 20px 5px 192px !important;
+    /** Padding for aligning labels left - 12px + 150 label width **/ }
+    .lucidlms-options p.form-field .extra-description, .lucidlms-options fieldset.form-field .extra-description {
+      display: block;
+      clear: both; }
+    .lucidlms-options p.form-field .sub-heading, .lucidlms-options fieldset.form-field .sub-heading {
+      display: block; }
+  .lucidlms-options label:not(.bootstrap-switch-label), .lucidlms-options legend {
+    float: left;
+    width: 180px;
+    padding: 3px 0 0 0;
+    margin: 0 0 0 -180px; }
+    .lucidlms-options label:not(.bootstrap-switch-label) .req, .lucidlms-options legend .req {
+      font-weight: bold;
+      font-style: normal;
+      color: red; }
+  .lucidlms-options .description {
+    display: block;
+    padding: 0;
+    margin: 0 0 0 7px;
+    clear: both; }
+  .lucidlms-options .description-block {
+    margin-left: 0;
+    display: block; }
+  .lucidlms-options textarea, .lucidlms-options input, .lucidlms-options select {
+    margin: 0; }
+  .lucidlms-options textarea {
+    vertical-align: top;
+    height: 3.5em;
+    line-height: 1.5em; }
+  .lucidlms-options input[type="text"],
+  .lucidlms-options input[type="email"],
+  .lucidlms-options input[type="number"] {
+    width: 50%;
+    float: left; }
+  .lucidlms-options input[type="checkbox"] {
+    width: auto !important; }
+  .lucidlms-options input.button {
+    width: auto;
+    margin-left: 8px; }
+  .lucidlms-options select {
+    float: left; }
+  .lucidlms-options input[type="text"].short,
+  .lucidlms-options input[type="email"].short,
+  .lucidlms-options input[type="number"].short,
+  .lucidlms-options .short {
+    width: 25%; }
+  .lucidlms-options .sized {
+    width: auto !important;
+    margin-right: 6px; }
+  .lucidlms-options .help_tip {
+    margin: 5px 0 0 5px; }
+  .lucidlms-options input[type="file"] {
+    border: none; }
+    .lucidlms-options input[type="file"].short {
+      float: left;
+      width: 30%; }
+  .lucidlms-options fieldset {
+    margin: 9px 0;
+    font-size: 12px;
+    padding: 5px 9px;
+    line-height: 24px; }
+    .lucidlms-options fieldset label {
+      width: auto;
+      float: none; }
+    .lucidlms-options fieldset ul {
+      float: left;
+      margin: 0;
+      padding: 0; }
+      .lucidlms-options fieldset ul li {
+        margin: 0;
+        width: auto; }
+        .lucidlms-options fieldset ul li input {
+          width: auto;
+          float: none;
+          margin-right: 4px; }
+      .lucidlms-options fieldset ul.one-row {
+        width: 100%; }
+    .lucidlms-options fieldset ul.lucid-radios li.row-tip .help_tip {
+      margin: 0 0 0 5px; }
+    .lucidlms-options fieldset ul.lucid-radios label {
+      margin-left: 0; }
+  .lucidlms-options.score-card-progress .quiz-results {
+    display: none; }
+    .lucidlms-options.score-card-progress .quiz-results li {
+      margin-bottom: 10px; }
+      .lucidlms-options.score-card-progress .quiz-results li .question-title,
+      .lucidlms-options.score-card-progress .quiz-results li .question-user-answer {
+        display: block; }
+      .lucidlms-options.score-card-progress .quiz-results li .question-title {
+        font-weight: bold; }
+      .lucidlms-options.score-card-progress .quiz-results li .question-is-correct.incorrect {
+        color: red; }
+      .lucidlms-options.score-card-progress .quiz-results li .question-is-correct.correct {
+        color: green; }
+  .lucidlms-options .woocommerce-connected-product a {
+    margin: 3px 10px 0 0; }
+  .lucidlms-options .woocommerce-connected-product .no-product-found {
+    display: inline;
+    margin-right: 10px; }
+  .lucidlms-options .woocommerce-connected-product .product-operations {
+    width: auto;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: gray;
+    font-style: italic;
+    -webkit-appearance: none;
+    margin-left: 7px; }
+    .lucidlms-options .woocommerce-connected-product .product-operations:hover {
+      text-decoration: underline; }
+
+.lucidlms-meta-box .new_element_field,
+.lucidlms-meta-box .new_question_field,
+.lucidlms-question-pool .new_element_field,
+.lucidlms-question-pool .new_question_field,
+.dashboard-course .new_element_field,
+.dashboard-course .new_question_field {
+  float: left;
+  margin: 1.25em 1em 0.25em 0.5em; }
+  .lucidlms-meta-box .new_element_field select,
+  .lucidlms-meta-box .new_question_field select,
+  .lucidlms-question-pool .new_element_field select,
+  .lucidlms-question-pool .new_question_field select,
+  .dashboard-course .new_element_field select,
+  .dashboard-course .new_question_field select {
+    width: 150px; }
+.lucidlms-meta-box .course-elements,
+.lucidlms-meta-box .questions,
+.lucidlms-question-pool .course-elements,
+.lucidlms-question-pool .questions,
+.dashboard-course .course-elements,
+.dashboard-course .questions {
+  margin-left: 0.5em; }
+  .lucidlms-meta-box .course-elements .course-element,
+  .lucidlms-meta-box .course-elements .question,
+  .lucidlms-meta-box .questions .course-element,
+  .lucidlms-meta-box .questions .question,
+  .lucidlms-question-pool .course-elements .course-element,
+  .lucidlms-question-pool .course-elements .question,
+  .lucidlms-question-pool .questions .course-element,
+  .lucidlms-question-pool .questions .question,
+  .dashboard-course .course-elements .course-element,
+  .dashboard-course .course-elements .question,
+  .dashboard-course .questions .course-element,
+  .dashboard-course .questions .question {
+    cursor: move;
+    touch-action: none; }
+    .lucidlms-meta-box .course-elements .course-element .taxonomies,
+    .lucidlms-meta-box .course-elements .question .taxonomies,
+    .lucidlms-meta-box .questions .course-element .taxonomies,
+    .lucidlms-meta-box .questions .question .taxonomies,
+    .lucidlms-question-pool .course-elements .course-element .taxonomies,
+    .lucidlms-question-pool .course-elements .question .taxonomies,
+    .lucidlms-question-pool .questions .course-element .taxonomies,
+    .lucidlms-question-pool .questions .question .taxonomies,
+    .dashboard-course .course-elements .course-element .taxonomies,
+    .dashboard-course .course-elements .question .taxonomies,
+    .dashboard-course .questions .course-element .taxonomies,
+    .dashboard-course .questions .question .taxonomies {
+      float: right;
+      display: block;
+      min-width: 40%;
+      padding: 0; }
+      .lucidlms-meta-box .course-elements .course-element .taxonomies ul,
+      .lucidlms-meta-box .course-elements .question .taxonomies ul,
+      .lucidlms-meta-box .questions .course-element .taxonomies ul,
+      .lucidlms-meta-box .questions .question .taxonomies ul,
+      .lucidlms-question-pool .course-elements .course-element .taxonomies ul,
+      .lucidlms-question-pool .course-elements .question .taxonomies ul,
+      .lucidlms-question-pool .questions .course-element .taxonomies ul,
+      .lucidlms-question-pool .questions .question .taxonomies ul,
+      .dashboard-course .course-elements .course-element .taxonomies ul,
+      .dashboard-course .course-elements .question .taxonomies ul,
+      .dashboard-course .questions .course-element .taxonomies ul,
+      .dashboard-course .questions .question .taxonomies ul {
+        margin: 1px 0;
+        float: right; }
+        .lucidlms-meta-box .course-elements .course-element .taxonomies ul li,
+        .lucidlms-meta-box .course-elements .question .taxonomies ul li,
+        .lucidlms-meta-box .questions .course-element .taxonomies ul li,
+        .lucidlms-meta-box .questions .question .taxonomies ul li,
+        .lucidlms-question-pool .course-elements .course-element .taxonomies ul li,
+        .lucidlms-question-pool .course-elements .question .taxonomies ul li,
+        .lucidlms-question-pool .questions .course-element .taxonomies ul li,
+        .lucidlms-question-pool .questions .question .taxonomies ul li,
+        .dashboard-course .course-elements .course-element .taxonomies ul li,
+        .dashboard-course .course-elements .question .taxonomies ul li,
+        .dashboard-course .questions .course-element .taxonomies ul li,
+        .dashboard-course .questions .question .taxonomies ul li {
+          margin: 0 3px;
+          text-align: right;
+          float: left; }
+          .lucidlms-meta-box .course-elements .course-element .taxonomies ul li .delete,
+          .lucidlms-meta-box .course-elements .question .taxonomies ul li .delete,
+          .lucidlms-meta-box .questions .course-element .taxonomies ul li .delete,
+          .lucidlms-meta-box .questions .question .taxonomies ul li .delete,
+          .lucidlms-question-pool .course-elements .course-element .taxonomies ul li .delete,
+          .lucidlms-question-pool .course-elements .question .taxonomies ul li .delete,
+          .lucidlms-question-pool .questions .course-element .taxonomies ul li .delete,
+          .lucidlms-question-pool .questions .question .taxonomies ul li .delete,
+          .dashboard-course .course-elements .course-element .taxonomies ul li .delete,
+          .dashboard-course .course-elements .question .taxonomies ul li .delete,
+          .dashboard-course .questions .course-element .taxonomies ul li .delete,
+          .dashboard-course .questions .question .taxonomies ul li .delete {
+            display: none;
+            cursor: pointer;
+            float: right;
+            margin: 0 -6px 0px 4px;
+            padding: 0 3px;
+            border-left: solid 2px white; }
+          .lucidlms-meta-box .course-elements .course-element .taxonomies ul li:hover .delete,
+          .lucidlms-meta-box .course-elements .question .taxonomies ul li:hover .delete,
+          .lucidlms-meta-box .questions .course-element .taxonomies ul li:hover .delete,
+          .lucidlms-meta-box .questions .question .taxonomies ul li:hover .delete,
+          .lucidlms-question-pool .course-elements .course-element .taxonomies ul li:hover .delete,
+          .lucidlms-question-pool .course-elements .question .taxonomies ul li:hover .delete,
+          .lucidlms-question-pool .questions .course-element .taxonomies ul li:hover .delete,
+          .lucidlms-question-pool .questions .question .taxonomies ul li:hover .delete,
+          .dashboard-course .course-elements .course-element .taxonomies ul li:hover .delete,
+          .dashboard-course .course-elements .question .taxonomies ul li:hover .delete,
+          .dashboard-course .questions .course-element .taxonomies ul li:hover .delete,
+          .dashboard-course .questions .question .taxonomies ul li:hover .delete {
+            display: block; }
+          .lucidlms-meta-box .course-elements .course-element .taxonomies ul li.add-category,
+          .lucidlms-meta-box .course-elements .question .taxonomies ul li.add-category,
+          .lucidlms-meta-box .questions .course-element .taxonomies ul li.add-category,
+          .lucidlms-meta-box .questions .question .taxonomies ul li.add-category,
+          .lucidlms-question-pool .course-elements .course-element .taxonomies ul li.add-category,
+          .lucidlms-question-pool .course-elements .question .taxonomies ul li.add-category,
+          .lucidlms-question-pool .questions .course-element .taxonomies ul li.add-category,
+          .lucidlms-question-pool .questions .question .taxonomies ul li.add-category,
+          .dashboard-course .course-elements .course-element .taxonomies ul li.add-category,
+          .dashboard-course .course-elements .question .taxonomies ul li.add-category,
+          .dashboard-course .questions .course-element .taxonomies ul li.add-category,
+          .dashboard-course .questions .question .taxonomies ul li.add-category {
+            margin-left: 0; }
+            .lucidlms-meta-box .course-elements .course-element .taxonomies ul li.add-category.no-categories,
+            .lucidlms-meta-box .course-elements .question .taxonomies ul li.add-category.no-categories,
+            .lucidlms-meta-box .questions .course-element .taxonomies ul li.add-category.no-categories,
+            .lucidlms-meta-box .questions .question .taxonomies ul li.add-category.no-categories,
+            .lucidlms-question-pool .course-elements .course-element .taxonomies ul li.add-category.no-categories,
+            .lucidlms-question-pool .course-elements .question .taxonomies ul li.add-category.no-categories,
+            .lucidlms-question-pool .questions .course-element .taxonomies ul li.add-category.no-categories,
+            .lucidlms-question-pool .questions .question .taxonomies ul li.add-category.no-categories,
+            .dashboard-course .course-elements .course-element .taxonomies ul li.add-category.no-categories,
+            .dashboard-course .course-elements .question .taxonomies ul li.add-category.no-categories,
+            .dashboard-course .questions .course-element .taxonomies ul li.add-category.no-categories,
+            .dashboard-course .questions .question .taxonomies ul li.add-category.no-categories {
+              visibility: hidden; }
+            .lucidlms-meta-box .course-elements .course-element .taxonomies ul li.add-category a.add,
+            .lucidlms-meta-box .course-elements .question .taxonomies ul li.add-category a.add,
+            .lucidlms-meta-box .questions .course-element .taxonomies ul li.add-category a.add,
+            .lucidlms-meta-box .questions .question .taxonomies ul li.add-category a.add,
+            .lucidlms-question-pool .course-elements .course-element .taxonomies ul li.add-category a.add,
+            .lucidlms-question-pool .course-elements .question .taxonomies ul li.add-category a.add,
+            .lucidlms-question-pool .questions .course-element .taxonomies ul li.add-category a.add,
+            .lucidlms-question-pool .questions .question .taxonomies ul li.add-category a.add,
+            .dashboard-course .course-elements .course-element .taxonomies ul li.add-category a.add,
+            .dashboard-course .course-elements .question .taxonomies ul li.add-category a.add,
+            .dashboard-course .questions .course-element .taxonomies ul li.add-category a.add,
+            .dashboard-course .questions .question .taxonomies ul li.add-category a.add {
+              font-size: 12px;
+              text-decoration: none; }
+              .lucidlms-meta-box .course-elements .course-element .taxonomies ul li.add-category a.add span,
+              .lucidlms-meta-box .course-elements .question .taxonomies ul li.add-category a.add span,
+              .lucidlms-meta-box .questions .course-element .taxonomies ul li.add-category a.add span,
+              .lucidlms-meta-box .questions .question .taxonomies ul li.add-category a.add span,
+              .lucidlms-question-pool .course-elements .course-element .taxonomies ul li.add-category a.add span,
+              .lucidlms-question-pool .course-elements .question .taxonomies ul li.add-category a.add span,
+              .lucidlms-question-pool .questions .course-element .taxonomies ul li.add-category a.add span,
+              .lucidlms-question-pool .questions .question .taxonomies ul li.add-category a.add span,
+              .dashboard-course .course-elements .course-element .taxonomies ul li.add-category a.add span,
+              .dashboard-course .course-elements .question .taxonomies ul li.add-category a.add span,
+              .dashboard-course .questions .course-element .taxonomies ul li.add-category a.add span,
+              .dashboard-course .questions .question .taxonomies ul li.add-category a.add span {
+                display: none; }
+              .lucidlms-meta-box .course-elements .course-element .taxonomies ul li.add-category a.add:hover span,
+              .lucidlms-meta-box .course-elements .question .taxonomies ul li.add-category a.add:hover span,
+              .lucidlms-meta-box .questions .course-element .taxonomies ul li.add-category a.add:hover span,
+              .lucidlms-meta-box .questions .question .taxonomies ul li.add-category a.add:hover span,
+              .lucidlms-question-pool .course-elements .course-element .taxonomies ul li.add-category a.add:hover span,
+              .lucidlms-question-pool .course-elements .question .taxonomies ul li.add-category a.add:hover span,
+              .lucidlms-question-pool .questions .course-element .taxonomies ul li.add-category a.add:hover span,
+              .lucidlms-question-pool .questions .question .taxonomies ul li.add-category a.add:hover span,
+              .dashboard-course .course-elements .course-element .taxonomies ul li.add-category a.add:hover span,
+              .dashboard-course .course-elements .question .taxonomies ul li.add-category a.add:hover span,
+              .dashboard-course .questions .course-element .taxonomies ul li.add-category a.add:hover span,
+              .dashboard-course .questions .question .taxonomies ul li.add-category a.add:hover span {
+                display: inline;
+                text-decoration: underline; }
+            .lucidlms-meta-box .course-elements .course-element .taxonomies ul li.add-category .cancel,
+            .lucidlms-meta-box .course-elements .question .taxonomies ul li.add-category .cancel,
+            .lucidlms-meta-box .questions .course-element .taxonomies ul li.add-category .cancel,
+            .lucidlms-meta-box .questions .question .taxonomies ul li.add-category .cancel,
+            .lucidlms-question-pool .course-elements .course-element .taxonomies ul li.add-category .cancel,
+            .lucidlms-question-pool .course-elements .question .taxonomies ul li.add-category .cancel,
+            .lucidlms-question-pool .questions .course-element .taxonomies ul li.add-category .cancel,
+            .lucidlms-question-pool .questions .question .taxonomies ul li.add-category .cancel,
+            .dashboard-course .course-elements .course-element .taxonomies ul li.add-category .cancel,
+            .dashboard-course .course-elements .question .taxonomies ul li.add-category .cancel,
+            .dashboard-course .questions .course-element .taxonomies ul li.add-category .cancel,
+            .dashboard-course .questions .question .taxonomies ul li.add-category .cancel {
+              color: #B1B1B1;
+              text-transform: lowercase;
+              font-size: 11px;
+              border-bottom: 1px dashed;
+              margin: 0 3px;
+              font-style: italic;
+              font-weight: normal; }
+              .lucidlms-meta-box .course-elements .course-element .taxonomies ul li.add-category .cancel:hover,
+              .lucidlms-meta-box .course-elements .question .taxonomies ul li.add-category .cancel:hover,
+              .lucidlms-meta-box .questions .course-element .taxonomies ul li.add-category .cancel:hover,
+              .lucidlms-meta-box .questions .question .taxonomies ul li.add-category .cancel:hover,
+              .lucidlms-question-pool .course-elements .course-element .taxonomies ul li.add-category .cancel:hover,
+              .lucidlms-question-pool .course-elements .question .taxonomies ul li.add-category .cancel:hover,
+              .lucidlms-question-pool .questions .course-element .taxonomies ul li.add-category .cancel:hover,
+              .lucidlms-question-pool .questions .question .taxonomies ul li.add-category .cancel:hover,
+              .dashboard-course .course-elements .course-element .taxonomies ul li.add-category .cancel:hover,
+              .dashboard-course .course-elements .question .taxonomies ul li.add-category .cancel:hover,
+              .dashboard-course .questions .course-element .taxonomies ul li.add-category .cancel:hover,
+              .dashboard-course .questions .question .taxonomies ul li.add-category .cancel:hover {
+                text-decoration: none; }
+        .lucidlms-meta-box .course-elements .course-element .taxonomies ul.courses li.empty, .lucidlms-meta-box .course-elements .course-element .taxonomies ul.categories li.empty,
+        .lucidlms-meta-box .course-elements .question .taxonomies ul.courses li.empty,
+        .lucidlms-meta-box .course-elements .question .taxonomies ul.categories li.empty,
+        .lucidlms-meta-box .questions .course-element .taxonomies ul.courses li.empty,
+        .lucidlms-meta-box .questions .course-element .taxonomies ul.categories li.empty,
+        .lucidlms-meta-box .questions .question .taxonomies ul.courses li.empty,
+        .lucidlms-meta-box .questions .question .taxonomies ul.categories li.empty,
+        .lucidlms-question-pool .course-elements .course-element .taxonomies ul.courses li.empty,
+        .lucidlms-question-pool .course-elements .course-element .taxonomies ul.categories li.empty,
+        .lucidlms-question-pool .course-elements .question .taxonomies ul.courses li.empty,
+        .lucidlms-question-pool .course-elements .question .taxonomies ul.categories li.empty,
+        .lucidlms-question-pool .questions .course-element .taxonomies ul.courses li.empty,
+        .lucidlms-question-pool .questions .course-element .taxonomies ul.categories li.empty,
+        .lucidlms-question-pool .questions .question .taxonomies ul.courses li.empty,
+        .lucidlms-question-pool .questions .question .taxonomies ul.categories li.empty,
+        .dashboard-course .course-elements .course-element .taxonomies ul.courses li.empty,
+        .dashboard-course .course-elements .course-element .taxonomies ul.categories li.empty,
+        .dashboard-course .course-elements .question .taxonomies ul.courses li.empty,
+        .dashboard-course .course-elements .question .taxonomies ul.categories li.empty,
+        .dashboard-course .questions .course-element .taxonomies ul.courses li.empty,
+        .dashboard-course .questions .course-element .taxonomies ul.categories li.empty,
+        .dashboard-course .questions .question .taxonomies ul.courses li.empty,
+        .dashboard-course .questions .question .taxonomies ul.categories li.empty {
+          background-color: transparent;
+          border: 3px solid;
+          color: #444;
+          padding: .1em .4em;
+          text-transform: lowercase; }
+        .lucidlms-meta-box .course-elements .course-element .taxonomies ul.categories .label-success,
+        .lucidlms-meta-box .course-elements .question .taxonomies ul.categories .label-success,
+        .lucidlms-meta-box .questions .course-element .taxonomies ul.categories .label-success,
+        .lucidlms-meta-box .questions .question .taxonomies ul.categories .label-success,
+        .lucidlms-question-pool .course-elements .course-element .taxonomies ul.categories .label-success,
+        .lucidlms-question-pool .course-elements .question .taxonomies ul.categories .label-success,
+        .lucidlms-question-pool .questions .course-element .taxonomies ul.categories .label-success,
+        .lucidlms-question-pool .questions .question .taxonomies ul.categories .label-success,
+        .dashboard-course .course-elements .course-element .taxonomies ul.categories .label-success,
+        .dashboard-course .course-elements .question .taxonomies ul.categories .label-success,
+        .dashboard-course .questions .course-element .taxonomies ul.categories .label-success,
+        .dashboard-course .questions .question .taxonomies ul.categories .label-success {
+          background-color: #319ba5; }
+        .lucidlms-meta-box .course-elements .course-element .taxonomies ul.categories li.empty,
+        .lucidlms-meta-box .course-elements .question .taxonomies ul.categories li.empty,
+        .lucidlms-meta-box .questions .course-element .taxonomies ul.categories li.empty,
+        .lucidlms-meta-box .questions .question .taxonomies ul.categories li.empty,
+        .lucidlms-question-pool .course-elements .course-element .taxonomies ul.categories li.empty,
+        .lucidlms-question-pool .course-elements .question .taxonomies ul.categories li.empty,
+        .lucidlms-question-pool .questions .course-element .taxonomies ul.categories li.empty,
+        .lucidlms-question-pool .questions .question .taxonomies ul.categories li.empty,
+        .dashboard-course .course-elements .course-element .taxonomies ul.categories li.empty,
+        .dashboard-course .course-elements .question .taxonomies ul.categories li.empty,
+        .dashboard-course .questions .course-element .taxonomies ul.categories li.empty,
+        .dashboard-course .questions .question .taxonomies ul.categories li.empty {
+          border-color: #319ba5;
+          background-color: transparent; }
+        .lucidlms-meta-box .course-elements .course-element .taxonomies ul.courses li.label-primary,
+        .lucidlms-meta-box .course-elements .question .taxonomies ul.courses li.label-primary,
+        .lucidlms-meta-box .questions .course-element .taxonomies ul.courses li.label-primary,
+        .lucidlms-meta-box .questions .question .taxonomies ul.courses li.label-primary,
+        .lucidlms-question-pool .course-elements .course-element .taxonomies ul.courses li.label-primary,
+        .lucidlms-question-pool .course-elements .question .taxonomies ul.courses li.label-primary,
+        .lucidlms-question-pool .questions .course-element .taxonomies ul.courses li.label-primary,
+        .lucidlms-question-pool .questions .question .taxonomies ul.courses li.label-primary,
+        .dashboard-course .course-elements .course-element .taxonomies ul.courses li.label-primary,
+        .dashboard-course .course-elements .question .taxonomies ul.courses li.label-primary,
+        .dashboard-course .questions .course-element .taxonomies ul.courses li.label-primary,
+        .dashboard-course .questions .question .taxonomies ul.courses li.label-primary {
+          background-color: #edbb4a; }
+        .lucidlms-meta-box .course-elements .course-element .taxonomies ul.courses li:last-of-type,
+        .lucidlms-meta-box .course-elements .question .taxonomies ul.courses li:last-of-type,
+        .lucidlms-meta-box .questions .course-element .taxonomies ul.courses li:last-of-type,
+        .lucidlms-meta-box .questions .question .taxonomies ul.courses li:last-of-type,
+        .lucidlms-question-pool .course-elements .course-element .taxonomies ul.courses li:last-of-type,
+        .lucidlms-question-pool .course-elements .question .taxonomies ul.courses li:last-of-type,
+        .lucidlms-question-pool .questions .course-element .taxonomies ul.courses li:last-of-type,
+        .lucidlms-question-pool .questions .question .taxonomies ul.courses li:last-of-type,
+        .dashboard-course .course-elements .course-element .taxonomies ul.courses li:last-of-type,
+        .dashboard-course .course-elements .question .taxonomies ul.courses li:last-of-type,
+        .dashboard-course .questions .course-element .taxonomies ul.courses li:last-of-type,
+        .dashboard-course .questions .question .taxonomies ul.courses li:last-of-type {
+          margin-right: 28px; }
+        .lucidlms-meta-box .course-elements .course-element .taxonomies ul.courses li.empty,
+        .lucidlms-meta-box .course-elements .question .taxonomies ul.courses li.empty,
+        .lucidlms-meta-box .questions .course-element .taxonomies ul.courses li.empty,
+        .lucidlms-meta-box .questions .question .taxonomies ul.courses li.empty,
+        .lucidlms-question-pool .course-elements .course-element .taxonomies ul.courses li.empty,
+        .lucidlms-question-pool .course-elements .question .taxonomies ul.courses li.empty,
+        .lucidlms-question-pool .questions .course-element .taxonomies ul.courses li.empty,
+        .lucidlms-question-pool .questions .question .taxonomies ul.courses li.empty,
+        .dashboard-course .course-elements .course-element .taxonomies ul.courses li.empty,
+        .dashboard-course .course-elements .question .taxonomies ul.courses li.empty,
+        .dashboard-course .questions .course-element .taxonomies ul.courses li.empty,
+        .dashboard-course .questions .question .taxonomies ul.courses li.empty {
+          border-color: #edbb4a;
+          background-color: transparent; }
+  .lucidlms-meta-box .course-elements .sortable-placeholder,
+  .lucidlms-meta-box .questions .sortable-placeholder,
+  .lucidlms-question-pool .course-elements .sortable-placeholder,
+  .lucidlms-question-pool .questions .sortable-placeholder,
+  .dashboard-course .course-elements .sortable-placeholder,
+  .dashboard-course .questions .sortable-placeholder {
+    height: 68px;
+    width: auto;
+    margin-top: 13px; }
+  .lucidlms-meta-box .course-elements .content-icon,
+  .lucidlms-meta-box .questions .content-icon,
+  .lucidlms-question-pool .course-elements .content-icon,
+  .lucidlms-question-pool .questions .content-icon,
+  .dashboard-course .course-elements .content-icon,
+  .dashboard-course .questions .content-icon {
+    float: left;
+    display: block;
+    line-height: 34px;
+    height: 34px;
+    margin-right: 10px;
+    font-size: 20px; }
+.lucidlms-meta-box h4.section-title,
+.lucidlms-question-pool h4.section-title,
+.dashboard-course h4.section-title {
+  padding: 20px 12px 15px;
+  margin: 0;
+  font-size: 14px; }
+  .lucidlms-meta-box h4.section-title.collapsible,
+  .lucidlms-question-pool h4.section-title.collapsible,
+  .dashboard-course h4.section-title.collapsible {
+    padding: 10px;
+    background-color: rgba(237, 187, 74, 0.3);
+    cursor: pointer;
+    text-align: center; }
+    .lucidlms-meta-box h4.section-title.collapsible .fa,
+    .lucidlms-question-pool h4.section-title.collapsible .fa,
+    .dashboard-course h4.section-title.collapsible .fa {
+      font-size: 20px;
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out; }
+    .lucidlms-meta-box h4.section-title.collapsible.collapsed .fa,
+    .lucidlms-question-pool h4.section-title.collapsible.collapsed .fa,
+    .dashboard-course h4.section-title.collapsible.collapsed .fa {
+      -webkit-transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      transform: none; }
+    .lucidlms-meta-box h4.section-title.collapsible:hover,
+    .lucidlms-question-pool h4.section-title.collapsible:hover,
+    .dashboard-course h4.section-title.collapsible:hover {
+      background-color: rgba(237, 187, 74, 0.5); }
+.lucidlms-meta-box .lucidlms-options.quiz,
+.lucidlms-question-pool .lucidlms-options.quiz,
+.dashboard-course .lucidlms-options.quiz {
+  padding-bottom: 20px; }
+
+.lucidlms-meta-box .question ul.categories li:last-of-type {
+  margin-right: 28px; }
+
+#question-form .remove-answer {
+  float: right;
+  padding: 1px 7px; }
+  #question-form .remove-answer .glyphicon {
+    line-height: 1.5; }
+#question-form .bootstrap-switch {
+  min-width: 125px !important; }
+  #question-form .bootstrap-switch .bootstrap-switch-handle-on,
+  #question-form .bootstrap-switch .bootstrap-switch-handle-off,
+  #question-form .bootstrap-switch .bootstrap-switch-label {
+    padding-bottom: 1px !important;
+    padding-top: 2px !important; }
+#question-form textarea {
+  width: 100%;
+  height: 6em;
+  resize: none; }
+#question-form .answers .panel {
+  margin-bottom: 10px; }
+#question-form .answers input[type="text"] {
+  margin-right: 20px; }
+
+.wp-media-buttons .explanation {
+  color: #666;
+  font-style: italic;
+  line-height: 30px; }
+
+.question-modal .modal-body {
+  overflow-y: auto;
+  max-height: 500px; }
+
+.titledesc .tooltip {
+  z-index: 9999; }
+
+.lucidlms-dashboard .new_course_name {
+  display: none;
+  font-size: 16px;
+  padding: 0 5px; }
+.lucidlms-dashboard .confirm-course-title {
+  display: none; }
+.lucidlms-dashboard .dashboard-courses {
+  margin-top: 52px; }
+.lucidlms-dashboard .course-category {
+  padding: 30px 46px 58px;
+  margin-bottom: 52px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: -0.9px 0.5px 2px rgba(0, 0, 0, 0.1); }
+.lucidlms-dashboard .course-category-title {
+  position: relative;
+  display: inline-block;
+  padding: 9px 13px 6px;
+  margin: 0 0 30px;
+  background-color: #edbb4a;
+  color: white;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase; }
+.lucidlms-dashboard .collapsible-course {
+  margin-bottom: 14px;
+  padding: 21px 20px 22px;
+  background-color: #f2f2f2;
+  border-radius: 4px; }
+  .lucidlms-dashboard .collapsible-course .expand a {
+    position: relative;
+    text-decoration: none; }
+    .lucidlms-dashboard .collapsible-course .expand a.open .arrow-icon {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+    .lucidlms-dashboard .collapsible-course .expand a:hover {
+      text-decoration: none; }
+    .lucidlms-dashboard .collapsible-course .expand a .arrow-icon {
+      position: absolute;
+      right: 0;
+      width: 30px;
+      height: 25px;
+      text-align: center;
+      color: #111;
+      line-height: 22px;
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+      border: 1px solid rgba(26, 26, 26, 0.2);
+      border-radius: 6px; }
+    .lucidlms-dashboard .collapsible-course .expand a:hover, .lucidlms-dashboard .collapsible-course .expand a:active, .lucidlms-dashboard .collapsible-course .expand a:focus {
+      outline: 0;
+      box-shadow: none; }
+  .lucidlms-dashboard .collapsible-course .entry-title {
+    padding: 0;
+    color: black;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px; }
+    .lucidlms-dashboard .collapsible-course .entry-title.draft, .lucidlms-dashboard .collapsible-course .entry-title.not_active {
+      color: #a6a6a6; }
+    .lucidlms-dashboard .collapsible-course .entry-title > img {
+      height: 40px;
+      width: auto; }
+    .lucidlms-dashboard .collapsible-course .entry-title .amount-label,
+    .lucidlms-dashboard .collapsible-course .entry-title .amount {
+      opacity: 0.5;
+      color: black;
+      font-size: 14px; }
+    .lucidlms-dashboard .collapsible-course .entry-title .amount-label {
+      margin-left: 30px;
+      font-family: PlayfairDisplay;
+      font-style: italic; }
+    .lucidlms-dashboard .collapsible-course .entry-title .amount {
+      font-family: Montserrat, Arial, sans-serif;
+      font-weight: 700;
+      text-transform: capitalize; }
+    .lucidlms-dashboard .collapsible-course .entry-title .status {
+      margin-left: 30px;
+      font-size: 12px;
+      line-height: 1; }
+.lucidlms-dashboard .dashboard-course {
+  padding-top: 15px; }
+  .lucidlms-dashboard .dashboard-course .inside {
+    clear: both;
+    overflow: hidden; }
+  .lucidlms-dashboard .dashboard-course .course-menu {
+    float: right;
+    margin: 0; }
+    .lucidlms-dashboard .dashboard-course .course-menu > li {
+      float: left;
+      margin-left: 7px;
+      padding: 6px 0 6px 12px;
+      font-size: 14px; }
+      .lucidlms-dashboard .dashboard-course .course-menu > li > a {
+        padding: 0; }
+
+.lucidlms-question-pool h3,
+.question-categories-modal h3,
+.lucidlms-meta-box h3 {
+  font-family: Montserrat, Arial, sans-serif; }
+.lucidlms-question-pool a,
+.question-categories-modal a,
+.lucidlms-meta-box a {
+  color: #319ba5; }
+  .lucidlms-question-pool a:hover,
+  .question-categories-modal a:hover,
+  .lucidlms-meta-box a:hover {
+    text-decoration: none;
+    color: #1B555A; }
+  .lucidlms-question-pool a:focus,
+  .question-categories-modal a:focus,
+  .lucidlms-meta-box a:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.lucidlms-question-pool .description {
+  font-size: 14px;
+  font-style: italic;
+  margin: 5px 0px; }
+.lucidlms-question-pool .new-question-wrapper {
+  padding: 2px 0; }
+.lucidlms-question-pool .filters .filter {
+  display: block;
+  margin: 2em 0.5em;
+  float: none; }
+  .lucidlms-question-pool .filters .filter .caption {
+    float: left;
+    margin: 0;
+    width: 150px; }
+    .lucidlms-question-pool .filters .filter .caption h3 {
+      margin: 0; }
+    .lucidlms-question-pool .filters .filter .caption a {
+      text-transform: lowercase; }
+  .lucidlms-question-pool .filters .filter .label {
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 1px 5px;
+    background-color: #777; }
+  .lucidlms-question-pool .filters .filter .categories-list .label.selected {
+    background-color: #319ba5; }
+  .lucidlms-question-pool .filters .filter .courses-list .label.selected {
+    background-color: #edbb4a; }
+.lucidlms-question-pool .questions {
+  margin-top: 0; }
+  .lucidlms-question-pool .questions .question {
+    cursor: auto;
+    margin-bottom: 10px; }
+  .lucidlms-question-pool .questions .btn-wrap {
+    margin-top: 5px; }
+  .lucidlms-question-pool .questions .categories-select-wrapper {
+    display: none;
+    margin-right: 17px; }
+    .lucidlms-question-pool .questions .categories-select-wrapper select {
+      color: #444;
+      line-height: auto;
+      height: auto;
+      margin-top: -5px; }
+
+.insert-from-question-pool {
+  margin-left: 1.25em;
+  float: right;
+  margin-top: 20px; }
+
+.insert-questions-modal input[type=checkbox] {
+  float: left;
+  margin: 0 10px; }
+.insert-questions-modal .description {
+  text-align: right; }
+.insert-questions-modal .category-wrapper {
+  line-height: 17px;
+  padding: 10px 0;
+  background-color: #edbb4a;
+  color: #fff; }
+  .insert-questions-modal .category-wrapper label,
+  .insert-questions-modal .category-wrapper input {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Montserrat, Arial, sans-serif; }
+.insert-questions-modal .question-wrapper {
+  padding: 0 0.74em; }
+
+.question-categories-modal .description {
+  margin-bottom: 10px;
+  font-style: italic; }
+.question-categories-modal .create-category a.create {
+  line-height: 26px;
+  min-height: 26px;
+  display: inline-block;
+  text-decoration: none; }
+  .question-categories-modal .create-category a.create:hover {
+    text-decoration: none; }
+  .question-categories-modal .create-category a.create:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+.question-categories-modal .create-category form.create-category-form {
+  display: none;
+  margin-left: 10px; }
+  .question-categories-modal .create-category form.create-category-form input.new-category-name {
+    display: block;
+    float: left;
+    margin-right: 5px; }
+  .question-categories-modal .create-category form.create-category-form input[type=submit] {
+    display: block;
+    padding: 2px 7px; }
+  .question-categories-modal .create-category form.create-category-form.visible {
+    display: inline-block; }
+.question-categories-modal .categories-list .category-row {
+  line-height: 25px;
+  font-size: 15px; }
+  .question-categories-modal .categories-list .category-row .category {
+    width: 74%; }
+    .question-categories-modal .categories-list .category-row .category:disabled {
+      border-color: transparent;
+      box-shadow: none;
+      color: #444;
+      cursor: text; }
+  .question-categories-modal .categories-list .category-row .category-controls {
+    float: right;
+    margin: 3px 0;
+    min-width: 88px; }
+    .question-categories-modal .categories-list .category-row .category-controls .btn {
+      font-size: 12px;
+      padding: 3px 7px; }
+      .question-categories-modal .categories-list .category-row .category-controls .btn.delete-category {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px; }
+      .question-categories-modal .categories-list .category-row .category-controls .btn.save-category {
+        display: none;
+        width: 100%;
+        border-radius: 4px; }
+
+.lucidlms_page_lucid-settings .bbpress-description {
+  font-size: 14px; }

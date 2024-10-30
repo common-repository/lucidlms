@@ -1,0 +1,11 @@
+.lucidlms-message {
+  position: relative;
+  overflow: hidden;
+}
+
+.lucidlms-message a.button-primary {
+  text-decoration: none;
+}
+.lucidlms-message a.skip {
+  opacity: 0.7;
+}

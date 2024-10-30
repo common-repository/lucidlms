@@ -1,0 +1,2300 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LucidLMS\n"
+"POT-Creation-Date: 2016-09-09 17:32+0300\n"
+"PO-Revision-Date: 2014-11-24 17:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: New Normal LLC <alexander.tinyaev@n3wnormal.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _e;__;__ngettext;_n;__ngettext_noop;_n_noop;_x;_nx;"
+"_nx_noop;_ex;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;"
+"esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/abstracts/abstract-lucid-base-course.php:320
+msgid "Start Course"
+msgstr ""
+
+#: includes/abstracts/abstract-lucid-course-element.php:424
+msgid "Complete"
+msgstr ""
+
+#: includes/abstracts/abstract-lucid-course-element.php:446
+msgid "Try Again"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:146
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:184
+msgid "Type an answer"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:147
+#: includes/class-lucid-post-types.php:298
+msgid "Question"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:148
+#: includes/admin/class-lucid-admin-menus.php:59
+#: includes/admin/views/html-admin-page-question-pool.php:4
+msgid "Question Pool"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:149
+msgid "Close"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:150
+#: includes/admin/views/html-admin-settings.php:22
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:151
+msgid "Insert Questions"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:152
+msgid "Select questions to insert"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:153
+msgid "Please enter the course name."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:154
+msgid "Please choose the type and enter the name."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:155
+msgid "An answer cannot be empty."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:156
+msgid "Question of this type should have at least one correct answer."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:157
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:185
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:203
+#: templates/single/quiz/results.php:33
+msgid "Correct"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:158
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:185
+msgid "Wrong"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:159
+#: includes/admin/post-types/meta-boxes/views/html-course-elements-question.php:29
+#: includes/admin/views/question-pool/html-admin-question-pool-questions.php:36
+msgid "No categories"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:160
+#: includes/admin/views/html-admin-page-question-pool.php:16
+msgid "Manage categories"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:161
+msgid "Category name cannot be empty"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-assets.php:162
+msgid ""
+"Are you really want to delete the category? Questions will be not deleted"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-menus.php:45
+#: includes/admin/lucid-admin-functions.php:19
+#: includes/admin/settings/class-lucid-settings-general.php:52
+msgid "LucidLMS"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-menus.php:52
+#: includes/admin/views/html-admin-page-dashboard.php:4
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-menus.php:66
+msgid "Reports"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-menus.php:73
+msgid "LucidLMS Settings"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-menus.php:73
+#: includes/admin/post-types/class-lucid-admin-meta-boxes.php:86
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course.php:25
+#: lucidlms.php:153
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:56
+#, php-format
+msgid "Course updated. <a href=\"%s\">View Course</a>"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:57
+#: includes/admin/class-lucid-admin-post-types.php:72
+#: includes/admin/class-lucid-admin-post-types.php:87
+#: includes/admin/class-lucid-admin-post-types.php:102
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:58
+#: includes/admin/class-lucid-admin-post-types.php:73
+#: includes/admin/class-lucid-admin-post-types.php:88
+#: includes/admin/class-lucid-admin-post-types.php:103
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:59
+msgid "Course updated."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:60
+#, php-format
+msgid "Course restored to revision from %s"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:61
+#, php-format
+msgid "Course published. <a href=\"%s\">View Course</a>"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:62
+msgid "Course saved."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:63
+#, php-format
+msgid "Course submitted. <a target=\"_blank\" href=\"%s\">Preview Course</a>"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:64
+#, php-format
+msgid ""
+"Course scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Course</a>"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:65
+#: includes/admin/class-lucid-admin-post-types.php:80
+#: includes/admin/class-lucid-admin-post-types.php:95
+#: includes/admin/class-lucid-admin-post-types.php:110
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:66
+#, php-format
+msgid ""
+"Course draft updated. <a target=\"_blank\" href=\"%s\">Preview Course</a>"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:71
+#: includes/admin/class-lucid-admin-post-types.php:74
+#: includes/admin/class-lucid-admin-post-types.php:76
+msgid "Score Card updated."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:75
+#, php-format
+msgid "Score Card restored to revision from %s"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:77
+msgid "Score Card saved."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:78
+msgid "Score Card submitted."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:79
+#, php-format
+msgid "Score Card scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:81
+msgid "Score Card draft updated."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:86
+#: includes/admin/class-lucid-admin-post-types.php:89
+#: includes/admin/class-lucid-admin-post-types.php:91
+msgid "Course Element updated."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:90
+#, php-format
+msgid "Course Element restored to revision from %s"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:92
+msgid "Course Element saved."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:93
+msgid "Course Element submitted."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:94
+#, php-format
+msgid "Course Element scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:96
+msgid "Course Element draft updated."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:101
+#: includes/admin/class-lucid-admin-post-types.php:104
+#: includes/admin/class-lucid-admin-post-types.php:106
+msgid "Question updated."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:105
+#, php-format
+msgid "Question restored to revision from %s"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:107
+msgid "Question saved."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:108
+msgid "Question submitted."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:109
+#, php-format
+msgid "Question scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-post-types.php:111
+msgid "Question draft updated."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-profile.php:38
+msgid "LucidLMS data"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-question-pool.php:32
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:122
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:201
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course-meta.php:6
+msgid "Choose a type"
+msgstr ""
+
+#: includes/admin/class-lucid-admin-settings.php:50
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-settings.php:56
+msgid "Your settings have been saved."
+msgstr ""
+
+#: includes/admin/class-lucid-admin-settings.php:480
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: includes/admin/lucid-forms-helper-functions.php:299
+msgid "You have already uploaded a file. "
+msgstr ""
+
+#: includes/admin/lucid-forms-helper-functions.php:299
+msgid "Click to see it."
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-meta-boxes.php:85
+msgid "Course Settings"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-meta-boxes.php:87
+#: includes/admin/settings/class-lucid-settings-general.php:25
+msgid "General"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-meta-boxes.php:88
+msgid "Instructor Information"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:59
+#: includes/class-lucid-install.php:157 includes/class-lucid-post-types.php:181
+msgid "Course"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:60
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:53
+#: includes/class-lucid-install.php:222
+msgid "Student"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:61
+msgid "Type"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:62
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:595
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:91
+msgid "Status"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:63
+msgid "Started on"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:64
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:103
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:112
+msgid "Expire date"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:120
+msgid "Edit this item"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:120
+#: includes/admin/views/question-pool/html-admin-manage-questions-categories-modal.php:25
+#: includes/class-lucid-post-types.php:185
+#: includes/class-lucid-post-types.php:225
+#: includes/class-lucid-post-types.php:266
+#: includes/class-lucid-post-types.php:302
+#: includes/class-lucid-post-types.php:339
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:121
+msgid "Edit this item inline"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:121
+msgid "Quick&nbsp;Edit"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:125
+msgid "Restore this item from the Trash"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:125
+msgid "Restore"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:127
+msgid "Move this item to the Trash"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:127
+msgid "Trash"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:131
+msgid "Delete this item permanently"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:131
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:137
+#, php-format
+msgid "Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:137
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course.php:29
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:140
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:140
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course.php:29
+msgid "View"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:175
+#, php-format
+msgid "on %s"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:189
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:104
+msgid "Indefinite"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:334
+msgid "Show all course types"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:356
+msgid "Show all courses"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:375
+msgid "Show all students"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:393
+msgid "Show all statuses"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:563
+msgid "Download CSV Report"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:591
+msgid "Member ID"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:592
+msgid "First name"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:593
+msgid "Last name"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:594
+msgid "Course name"
+msgstr ""
+
+#: includes/admin/post-types/class-lucid-admin-view-score-card.php:596
+msgid "Date"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:41
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:43
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:46
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:60
+msgid "Course Element Type"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:73
+msgid "Threshold"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:81
+msgid ""
+"Choose number of attempts allowed for student to pass quiz. \"0\" means "
+"indefinite."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:82
+msgid "Attempts"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:90
+msgid ""
+"Optional. If student exceed given time, results will be still submitted. "
+"\"0\" means timer is off."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:91
+msgid "Timer (min)"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:101
+msgid ""
+"Optional. The time student should wait to be able to complete the lesson. "
+"\"0\" means timer is off."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:102
+msgid "Duration (min)"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:114
+msgid "Insert from Question Pool"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:115
+#: includes/class-lucid-post-types.php:297
+#: includes/class-lucid-post-types.php:299
+msgid "Questions"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:131
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:211
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course-meta.php:16
+msgid "Name"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:134
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:214
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course-meta.php:18
+#: includes/admin/views/html-admin-page-dashboard.php:8
+#: includes/admin/views/html-admin-page-question-pool.php:52
+#: includes/admin/views/question-pool/html-admin-manage-questions-categories-modal.php:6
+msgid "Create"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:173
+msgid "Type a question or insert media..."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course-element.php:193
+msgid "Add answer"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:59
+msgid "Availability Time (days)"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:61
+msgid ""
+"Defines how long the course will be available to a student once he started "
+"it. Enter \"0\" if you want it to be indefinite."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:72
+msgid "Enable Sequential Logic"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:74
+msgid ""
+"If enabled, student will have to pass all course elements one by one in the "
+"defined order."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:77
+msgid "False"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:78
+msgid "True"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:84
+msgid "Threshold Type"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:91
+msgid "None."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:92
+msgid "The certificate will not list student's score."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:95
+msgid "Each quiz individually."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:96
+msgid "The certificate will list student's average score on all quizzes."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:99
+msgid "Final quiz."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:100
+msgid ""
+"The certificate will list student's final quiz score. Threshold field is "
+"required in final quiz."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:107
+msgid "Certificate Template image"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:110
+msgid ""
+"Before uploading an image, you should prepare it as on the example "
+"(everything that is text should be removed). Supported formats for upload "
+"are: png, jpg, jpeg. PNG example is used by default if not specified."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:111
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Download PDF example</a>. <a href=\"%s\" "
+"target=\"_blank\">Download PNG example</a>"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:123
+msgid "Choose a instructor"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:135
+#: includes/class-lucid-post-types.php:336
+msgid "Instructor"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:137
+msgid "You can choose a course instructor"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:143
+msgid "Custom certificate text"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:146
+msgid "You may specify custom text displayed under Instructor field."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:152
+msgid "Sell online"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:156
+msgid "Connected Product"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:158
+msgid "WooCommerce Product #"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:166
+msgid "remove"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:169
+msgid "No product found."
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:171
+msgid "create"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:179
+msgid "Course Price"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:183
+msgid "Price of associated course product"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-course.php:203
+msgid "Course elements"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-instructors.php:38
+msgid "Position"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-instructors.php:45
+msgid "Facebook"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-instructors.php:52
+msgid "Twitter"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-instructors.php:59
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-instructors.php:66
+msgid "Email"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:77
+msgid "Course to be passed"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:92
+msgid "Not created"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:124
+msgid "Score Card Progress"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:154
+#, php-format
+msgid "Time spent: %s out of %s"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:178
+#, php-format
+msgid "Score: %s"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:180
+#, php-format
+msgid "Score: %s (threshold is %s)"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:189
+#, php-format
+msgid "Passed attempts: %s out of %s allowed"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:190
+msgid "Reset one attempt"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:195
+msgid "Show results"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:199
+#: templates/single/quiz/content-questions-review.php:40
+#: templates/single/quiz/results.php:29
+#, php-format
+msgid "Q: %s"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:201
+#: templates/single/quiz/content-questions-review.php:41
+#: templates/single/quiz/results.php:31
+#, php-format
+msgid "A: %s"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:203
+#: templates/single/quiz/results.php:33
+msgid "Incorrect"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:206
+#: templates/single/quiz/results.php:36
+msgid "A: missing"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/class-lucid-meta-box-score-card.php:217
+msgid "There's no progress yet"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/views/html-course-elements-question.php:10
+#: includes/admin/views/question-pool/html-admin-question-pool-questions.php:15
+msgid "Content filled in"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/views/html-course-elements-question.php:12
+#: includes/admin/views/question-pool/html-admin-question-pool-questions.php:18
+msgid "Content missing"
+msgstr ""
+
+#: includes/admin/post-types/meta-boxes/views/html-course-elements-question.php:43
+#: includes/admin/views/question-pool/html-admin-question-pool-questions.php:65
+msgid "No courses"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:27
+msgid "bbPress"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:44
+msgid "bbPress Integration"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:51
+#: includes/admin/settings/class-lucid-settings-woocommerce-integration.php:52
+msgid "Integration status"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:52
+msgid "Turn it on to enable bbPress integration"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:57
+#: includes/admin/settings/class-lucid-settings-woocommerce-integration.php:58
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:58
+#: includes/admin/settings/class-lucid-settings-woocommerce-integration.php:59
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:67
+msgid "Create all forums"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:68
+msgid "Generate new forum for each course if not already exist"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:72
+#, php-format
+msgid "Create %s forum(s)"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:80
+msgid "Delete all forums"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:81
+msgid "Delete all forums related to courses"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:85
+#, php-format
+msgid "Delete %s forum(s)"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-bbpress-integration.php:111
+msgid "Discussions will appear inside lesson pages"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-emails.php:25
+msgid "Emails"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-emails.php:42
+msgid "Emails settings"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-emails.php:48
+msgid "\"From\" email address"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-emails.php:52
+msgid "Uses admin email by default, change for whatever you want"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-emails.php:56
+msgid "Email subject: completed course"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-emails.php:58
+msgid "Course \"{course_name}\" completed. Download your certificate"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-emails.php:61
+msgid "Available variables: {site_name}, {course_name}."
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:43
+msgid "General Options"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:49
+msgid "Organization name"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:50
+msgid "This sets your name on all certificates."
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:58
+msgid "Logo"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:59
+msgid "Logo will also appear on certificates."
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:66
+msgid "Courses Page"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:71
+msgid ""
+"This sets the base page of your courses - this is where your courses archive "
+"will be."
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:74
+msgid "Hide category in sidebar"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:76
+msgid "This hides category in sidebar on course page"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:84
+msgid "Default Settings for LMS"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:86
+msgid "The following options defines default values for your LMS setup."
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:90
+msgid "Availability time (days)"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:91
+msgid ""
+"This sets the default time course is available to student once it started."
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:103
+msgid "Threshold (percents)"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-general.php:104
+msgid ""
+"This sets the default threshold for every quiz (may be changed individually)."
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-woocommerce-integration.php:27
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-woocommerce-integration.php:45
+msgid "Woocommerce Integration"
+msgstr ""
+
+#: includes/admin/settings/class-lucid-settings-woocommerce-integration.php:53
+msgid "Turn it on to enable WooCommerce integration"
+msgstr ""
+
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course.php:8
+msgid "Price "
+msgstr ""
+
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course.php:22
+msgid "Students"
+msgstr ""
+
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course.php:34
+msgid "Unpublish"
+msgstr ""
+
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course.php:35
+msgid "Deactivate"
+msgstr ""
+
+#: includes/admin/views/dashboard/html-admin-page-dashboard-course.php:37
+msgid "Publish"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-dashboard.php:6
+msgid "Give it a title"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-dashboard.php:7
+msgid "Add course"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-question-pool.php:8
+msgid ""
+"This is your question repository: stored and managed in one place. Create "
+"questions and assign categories to them, then pull questions into your "
+"quizzes."
+msgstr ""
+
+#: includes/admin/views/html-admin-page-question-pool.php:14
+msgid "By category: "
+msgstr ""
+
+#: includes/admin/views/html-admin-page-question-pool.php:27
+msgid "By course: "
+msgstr ""
+
+#: includes/admin/views/html-admin-page-question-pool.php:30
+msgid "Browse courses"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-question-pool.php:49
+msgid "new question text..."
+msgstr ""
+
+#: includes/admin/views/html-notice-install.php:7
+msgid ""
+"<strong>Welcome to LucidLMS</strong>. You need to install some pages for the "
+"plugin."
+msgstr ""
+
+#: includes/admin/views/html-notice-install.php:10
+msgid "Install LucidLMS Pages"
+msgstr ""
+
+#: includes/admin/views/html-notice-install.php:11
+msgid "Skip setup"
+msgstr ""
+
+#: includes/admin/views/html-notice-users-can-register.php:7
+#, php-format
+msgid ""
+"<strong>Registration is disabled, please turn it on</strong>. In order "
+"LucidLMS to work properly, you need to go to <a href=\"%s\">Settings -> "
+"General -> Membership</a> field and enable <b>\"Anyone can register\"</b>"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-insert-questions-modal.php:1
+msgid "Browse Question Pool &rarr;"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-manage-questions-categories-modal.php:1
+msgid ""
+"Split your questions into categories. You will be able to pull entire "
+"categories of questions into your quizzes."
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-manage-questions-categories-modal.php:3
+msgid "Create new category"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-manage-questions-categories-modal.php:5
+msgid "New category name"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-manage-questions-categories-modal.php:14
+msgid "Category name"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-manage-questions-categories-modal.php:26
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-manage-questions-categories-modal.php:27
+msgid "Save"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-question-pool-categories.php:1
+#: includes/admin/views/question-pool/html-admin-question-pool-courses.php:1
+msgid "All"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-question-pool-questions.php:41
+msgid "Add category"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-question-pool-questions.php:46
+msgid "Choose a category"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-question-pool-questions.php:51
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/views/question-pool/html-admin-question-pool-questions.php:87
+msgid "Sorry, no questions found..."
+msgstr ""
+
+#: includes/class-lucid-ajax.php:121 includes/class-lucid-ajax.php:191
+msgid "The course type is empty"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:126 includes/class-lucid-ajax.php:196
+msgid "The course name is empty"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:186 includes/class-lucid-ajax.php:257
+msgid "Wrong post id passed"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:203 includes/class-lucid-ajax.php:265
+msgid "This course type doesn't support elements"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:217 includes/class-lucid-ajax.php:276
+#: includes/class-lucid-ajax.php:375 includes/class-lucid-ajax.php:753
+msgid "An error has been occurred, please check the data and try again"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:221 includes/class-lucid-ajax.php:280
+#: includes/class-lucid-ajax.php:378 includes/class-lucid-ajax.php:757
+msgid "No course element found. Are you sure that the post still exists?"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:353
+msgid "The question type is empty"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:358
+msgid "The question is empty"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:368 includes/class-lucid-ajax.php:742
+msgid "This course element type doesn't support questions"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:394
+msgid "Can't persist the question to the database"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:470
+msgid "Cannot create new category. Please, try again"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:502 includes/class-lucid-ajax.php:539
+msgid "Cannot delete category. Please, try again"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:612
+msgid "Cannot remove a category. Please, try again"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:616 includes/class-lucid-ajax.php:654
+msgid "Question not found"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:621
+msgid "Unable to remove category for questions"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:650
+msgid "Unable to add question to the category. Please, try again"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:659
+msgid "Unable to add category for the question"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:710
+msgid "An error has been occurred, please check data and try again"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:1152
+msgid "Wrong answers array passed"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:1161 includes/class-lucid-ajax.php:1273
+msgid "Database processing error on Score Card saving"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:1166 includes/class-lucid-ajax.php:1215
+#: includes/class-lucid-ajax.php:1278
+msgid "No Score Card found for this Quiz"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:1171 includes/class-lucid-ajax.php:1175
+msgid "Wrong quiz id passed"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:1179 includes/class-lucid-ajax.php:1228
+#: includes/class-lucid-ajax.php:1291
+msgid "You're not authorize to do this"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:1219 includes/class-lucid-ajax.php:1282
+msgid "No Course found"
+msgstr ""
+
+#: includes/class-lucid-ajax.php:1224 includes/class-lucid-ajax.php:1287
+msgid "Wrong course element id passed"
+msgstr ""
+
+#: includes/class-lucid-certificate.php:56
+#, php-format
+msgid "By: %s"
+msgstr ""
+
+#: includes/class-lucid-emails.php:107 includes/class-lucid-emails.php:116
+#: lucidlms.php:87 lucidlms.php:96
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-lucid-install.php:131
+msgid "courses"
+msgstr ""
+
+#: includes/class-lucid-install.php:132 includes/class-lucid-post-types.php:180
+#: includes/class-lucid-post-types.php:182
+msgid "Courses"
+msgstr ""
+
+#: includes/class-lucid-install.php:136
+msgid "student-profile"
+msgstr ""
+
+#: includes/class-lucid-install.php:137
+msgid "Student Profile"
+msgstr ""
+
+#: includes/class-lucid-install.php:160
+msgid "Lesson"
+msgstr ""
+
+#: includes/class-lucid-install.php:161
+msgid "Quiz"
+msgstr ""
+
+#: includes/class-lucid-install.php:164
+msgid "Started"
+msgstr ""
+
+#: includes/class-lucid-install.php:165
+msgid "Completed"
+msgstr ""
+
+#: includes/class-lucid-install.php:166
+msgid "Expired"
+msgstr ""
+
+#: includes/class-lucid-install.php:169
+msgid "Open"
+msgstr ""
+
+#: includes/class-lucid-install.php:170
+msgid "Multiple choice"
+msgstr ""
+
+#: includes/class-lucid-install.php:171
+msgid "Single choice"
+msgstr ""
+
+#: includes/class-lucid-lesson.php:69
+msgid "Start Lesson"
+msgstr ""
+
+#: includes/class-lucid-post-status.php:36
+msgid "Not Active"
+msgstr ""
+
+#: includes/class-lucid-post-status.php:37
+#, php-format
+msgid "Not Active (%s)"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:56
+#: includes/class-lucid-post-types.php:58
+msgid "Course Categories"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:59
+msgid "Course Category"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:60
+msgid "Categories"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:61
+msgid "Search Course Categories"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:62
+msgid "All Course Categories"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:63
+msgid "Parent Course Category"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:64
+msgid "Parent Course Category:"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:65
+msgid "Edit Course Category"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:66
+msgid "Update Course Category"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:67
+msgid "Add New Course Category"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:68
+msgid "New Course Category Name"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:79
+msgid "course-category"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:89
+#: includes/class-lucid-post-types.php:103
+msgid "Tags"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:90
+msgid "Tag"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:91
+msgid "Search Tags"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:92
+msgid "Popular Tags"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:93
+msgid "All Tags"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:96
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:97
+msgid "Update Tag"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:98
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:99
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:100
+msgid "Separate tags with commas"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:101
+msgid "Add or remove tags"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:102
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:174
+msgid "course"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:183
+msgid "Add Course"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:184
+msgid "Add New Course"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:186
+msgid "Edit Course"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:187
+msgid "New Course"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:188
+#: includes/class-lucid-post-types.php:189
+msgid "View Course"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:190
+msgid "Search Courses"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:191
+msgid "No Courses found"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:192
+msgid "No Courses found in trash"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:193
+msgid "Parent Course"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:195
+msgid "This is where you can add new courses to your system."
+msgstr ""
+
+#: includes/class-lucid-post-types.php:221
+#: includes/class-lucid-post-types.php:234
+msgid "Score Cards"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:222
+msgid "Score Card"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:223
+msgid "Add Score Card"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:224
+msgid "Add New Score Card"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:226
+msgid "Edit Score Card"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:227
+msgid "New Score Card"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:228
+#: includes/class-lucid-post-types.php:229
+msgid "View Score Card"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:230
+msgid "Search Score Cards"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:231
+msgid "No Score Cards found"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:232
+msgid "No Score Cards found in trash"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:233
+msgid "Parent Score Cards"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:236
+msgid "This is where score cards are stored."
+msgstr ""
+
+#: includes/class-lucid-post-types.php:261
+#: includes/class-lucid-post-types.php:263
+msgid "Course Elements"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:262
+msgid "Course Element"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:264
+msgid "Add Course Element"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:265
+msgid "Add New Course Element"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:267
+msgid "Edit Course Element"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:268
+msgid "New Course Element"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:269
+msgid "View Course Elements"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:270
+msgid "View Course Element"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:271
+msgid "Search Course Elements"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:272
+msgid "No Course Elements found"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:273
+msgid "No Course Elements found in trash"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:274
+msgid "Parent Course Element"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:276
+msgid "This is where you can add new elements for your courses."
+msgstr ""
+
+#: includes/class-lucid-post-types.php:300
+msgid "Add Question"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:301
+msgid "Add New Question"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:303
+msgid "Edit Question"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:304
+msgid "New Question"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:305
+msgid "View Questions"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:306
+msgid "View Question"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:307
+msgid "Search Questions"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:308
+msgid "No Questions found"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:309
+msgid "No Questions found in trash"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:310
+msgid "Parent Question"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:312
+msgid ""
+"This is where you can add new questions that you can use in your quizzes."
+msgstr ""
+
+#: includes/class-lucid-post-types.php:335
+#: includes/class-lucid-post-types.php:348
+msgid "Instructors"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:337
+msgid "Add Instructor"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:338
+msgid "Add New Instructor"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:340
+msgid "Edit Instructor"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:341
+msgid "New Instructor"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:342
+msgid "View Instructors"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:343
+msgid "View Instructor"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:344
+msgid "Search Instructors"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:345
+msgid "No Instructors found"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:346
+msgid "No Instructors found in trash"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:347
+msgid "Parent Instructors"
+msgstr ""
+
+#: includes/class-lucid-post-types.php:350
+msgid "This is where course instructors are stored."
+msgstr ""
+
+#: includes/class-lucid-quiz.php:305
+msgid "Start Quiz"
+msgstr ""
+
+#: includes/class-lucid-score-card-element.php:322
+msgid "started"
+msgstr ""
+
+#: includes/class-lucid-score-card-element.php:323
+msgid "completed"
+msgstr ""
+
+#: includes/class-lucid-score-card-element.php:324
+msgid "expired"
+msgstr ""
+
+#: includes/class-lucid-score-card.php:316
+msgid "Score card"
+msgstr ""
+
+#: includes/lucid-bbpress-functions.php:57
+msgid "Discuss"
+msgstr ""
+
+#: includes/lucid-bbpress-functions.php:244
+msgid "All forums deleted"
+msgstr ""
+
+#: includes/lucid-bbpress-functions.php:247
+msgid "All forums already deleted"
+msgstr ""
+
+#: includes/lucid-bbpress-functions.php:252
+msgid "bbPress plugin is not activated"
+msgstr ""
+
+#: includes/lucid-bbpress-functions.php:265
+msgid "New forums created"
+msgstr ""
+
+#: includes/lucid-bbpress-functions.php:268
+msgid "All forums already exist"
+msgstr ""
+
+#: includes/lucid-course-functions.php:138
+msgid "To embed a video, copy it's link and insert into text on a new line"
+msgstr ""
+
+#: includes/lucid-question-functions.php:89
+msgid "Other Questions"
+msgstr ""
+
+#: includes/lucid-template-functions.php:425
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: includes/lucid-template-functions.php:428
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: includes/lucid-template-functions.php:865
+msgid "Quiz attempt unsuccessful. Please click the \"Try Again\" button below."
+msgstr ""
+
+#: includes/lucid-template-functions.php:867
+msgid ""
+"You've failed the quiz and reached the maximum number of attempts to try."
+msgstr ""
+
+#: includes/lucid-template-functions.php:870
+#, php-format
+msgid "You've %s the quiz."
+msgstr ""
+
+#: includes/lucid-template-functions.php:979
+#: includes/lucid-template-functions.php:980
+msgid "Back to course"
+msgstr ""
+
+#: includes/lucid-template-functions.php:1050
+msgid "Select your state"
+msgstr ""
+
+#: includes/lucid-template-functions.php:1310
+msgid "Select your country"
+msgstr ""
+
+#: includes/lucid-woocommerce-functions.php:120
+msgid "Go to Course"
+msgstr ""
+
+#: includes/lucid-woocommerce-functions.php:183
+msgid "You're trying to buy course that you've already started"
+msgstr ""
+
+#: includes/lucid-woocommerce-functions.php:207
+msgid "Course #"
+msgstr ""
+
+#: includes/lucid-woocommerce-functions.php:421
+#, php-format
+msgid "Buy $%s.00"
+msgstr ""
+
+#: includes/lucid-woocommerce-functions.php:424
+#: includes/lucid-woocommerce-functions.php:426
+#, php-format
+msgid "Buy %s"
+msgstr ""
+
+#: includes/lucid-woocommerce-functions.php:430
+msgid "Free"
+msgstr ""
+
+#: includes/lucid-woocommerce-functions.php:457
+#: templates/loop/readmore-course.php:19
+msgid "Go to course"
+msgstr ""
+
+#: includes/lucid-woocommerce-functions.php:459
+msgid "Go to my courses"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:40
+msgid "Notice of Password Change"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:41
+msgid ""
+"Hi ###USERNAME###, <br><br>This notice confirms that your password was "
+"changed on ###SITENAME###. <br><br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:42
+msgid ""
+"If you did not change your password, please contact the Site Administrator "
+"at ###ADMIN_EMAIL###.<br><br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:43 includes/lucid-wp-emails.php:82
+msgid "This email has been sent to ###EMAIL###.<br><br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:44 includes/lucid-wp-emails.php:83
+msgid "Regards, <br>All at ###SITENAME### <br>###SITEURL###.<br><br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:54
+#, php-format
+msgid "[%s] Notice of Password Change"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:79
+msgid "Notice of Email Change"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:80
+msgid ""
+"Hi ###USERNAME###, <br><br>This notice confirms that your email was changed "
+"on ###SITENAME###. <br><br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:81
+msgid ""
+"If you did not change your email, please contact the Site Administrator at "
+"###ADMIN_EMAIL###.<br><br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:93
+#, php-format
+msgid "[%s] Notice of Email Change"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:145
+msgid "Password Reset"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:147
+msgid "It looks like you (hopefully) want to reset your password for your "
+msgstr ""
+
+#: includes/lucid-wp-emails.php:147
+msgid ""
+" account. <br><br>To reset your password, simply click the link below, "
+"otherwise just ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/lucid-wp-emails.php:149 includes/lucid-wp-emails.php:271
+#, php-format
+msgid "Best regards, <br>%s team"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:182
+msgid "Password Lost/Changed"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:183
+#, php-format
+msgid "Heads up! User %s just changed their password on %s. <br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:191
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:224
+msgid "New User Registration"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:225
+#, php-format
+msgid "New user registration on your site %s: <br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:226 includes/lucid-wp-emails.php:265
+#, php-format
+msgid "Username: %s <br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:227 includes/lucid-wp-emails.php:266
+#, php-format
+msgid "First Name: %s <br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:228 includes/lucid-wp-emails.php:267
+#, php-format
+msgid "Last Name: %s <br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:229
+#, php-format
+msgid "E-mail: %s <br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:238
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:262
+msgid "Registration information"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:263
+#, php-format
+msgid "A very special welcome to you, %s. Thank you for joining %s! <br><br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:264
+msgid "Your account information: <br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:268
+#, php-format
+msgid "E-mail: %s <br><br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:269
+#, php-format
+msgid ""
+"We hope you enjoy your stay at %s. If you have any problems, questions, "
+"opinions, praise, comments, suggestions, please feel free to contact us at "
+"any time."
+msgstr ""
+
+#: includes/lucid-wp-emails.php:270
+msgid "To set your password, visit the following address: <br><br>"
+msgstr ""
+
+#: includes/lucid-wp-emails.php:281
+#, php-format
+msgid "[%s] Registration information"
+msgstr ""
+
+#: templates/all-courses.php:38
+msgid "Loading courses..."
+msgstr ""
+
+#: templates/archive-course.php:42
+msgid "Loading categories..."
+msgstr ""
+
+#: templates/bbpress/content-single-forum.php:22
+msgid "Back to Course"
+msgstr ""
+
+#: templates/bbpress/content-single-forum.php:27
+#: templates/single/course/forums.php:56
+msgid "New Topic"
+msgstr ""
+
+#: templates/content-course.php:78 templates/single/course/meta.php:24
+msgid "Tag:"
+msgstr ""
+
+#: templates/course-not-active.php:29
+#, php-format
+msgid ""
+"This course is no longer available. Please choose other course <a href=\"%s"
+"\">here</a>"
+msgstr ""
+
+#: templates/emails/course-completed.php:25
+#, php-format
+msgid "Dear %s"
+msgstr ""
+
+#: templates/emails/course-completed.php:27
+#, php-format
+msgid ""
+"Congratulations you have completed &ldquo;%s&rdquo;! <br /> You can download "
+"your certificate in your dashboard on our website or by clicking the link "
+"below."
+msgstr ""
+
+#: templates/emails/email-footer.php:32
+msgid "Download Completion Certificate"
+msgstr ""
+
+#: templates/loop/no-courses.php:16
+msgid "No courses were found."
+msgstr ""
+
+#: templates/single/course/complete.php:31
+#: templates/single/lesson/complete.php:39 templates/single/quiz/notices.php:34
+#, php-format
+msgid ""
+"Congratulations! You have successfully completed the course. Check your e-"
+"mail for an issued certificate or download it by clicking <a href=\"%s\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: templates/single/course/complete.php:34
+msgid "Return to student profile"
+msgstr ""
+
+#: templates/single/course/elements.php:23
+msgid "Curriculum"
+msgstr ""
+
+#: templates/single/course/forums.php:67
+msgid "Topic"
+msgstr ""
+
+#: templates/single/course/forums.php:68
+msgid "Voices"
+msgstr ""
+
+#: templates/single/course/forums.php:69
+msgid "Replies"
+msgstr ""
+
+#: templates/single/course/forums.php:69
+msgid "Posts"
+msgstr ""
+
+#: templates/single/course/forums.php:70
+msgid "Freshness"
+msgstr ""
+
+#: templates/single/course/meta.php:23
+msgid "Category:"
+msgstr ""
+
+#: templates/single/course/progress.php:23
+msgid ""
+"In order to earn your Certificate of Completion, you must successfully "
+"complete all sections of the above course."
+msgstr ""
+
+#: templates/single/lesson/complete.php:30
+msgid "Discuss This Lesson"
+msgstr ""
+
+#: templates/single/lesson/complete.php:40
+msgid "You may review the lesson at any time."
+msgstr ""
+
+#: templates/single/lesson/complete.php:46 templates/single/quiz/notices.php:42
+msgid "Back to the course"
+msgstr ""
+
+#: templates/single/lesson/complete.php:47 templates/single/quiz/index.php:113
+#: templates/single/quiz/notices.php:43
+msgid "Next"
+msgstr ""
+
+#: templates/single/lesson/complete.php:51 templates/single/quiz/notices.php:27
+msgid "Continue"
+msgstr ""
+
+#: templates/single/lesson/complete.php:81
+msgid ""
+"You may not advance to the next section, until the timer is at 0:00 and you "
+"click \"Mark Complete\""
+msgstr ""
+
+#: templates/single/quiz/content-question-open.php:28
+msgid "Answer the question here"
+msgstr ""
+
+#: templates/single/quiz/content-questions-review.php:25
+msgid "Review your answers before submitting them"
+msgstr ""
+
+#: templates/single/quiz/content-questions-review.php:41
+msgid "Answer is missing."
+msgstr ""
+
+#: templates/single/quiz/content-questions-review.php:49
+msgid "Complete quiz"
+msgstr ""
+
+#: templates/single/quiz/content-questions-review.php:52
+msgid ""
+"We did not receive all the answers from you, come back when you are done "
+"with all answers."
+msgstr ""
+
+#: templates/single/quiz/index.php:69
+msgid "Review"
+msgstr ""
+
+#: templates/single/quiz/index.php:89
+msgid ""
+"You are given a limited time to pass the quiz. If you exceed the time, "
+"results will automatically be submitted."
+msgstr ""
+
+#: templates/single/quiz/index.php:116
+msgid "Previous"
+msgstr ""
+
+#: templates/single/quiz/index.php:132
+msgid "This quiz was not completed for some reason, be strong and continue."
+msgstr ""
+
+#: templates/single/quiz/index.php:134
+msgid "Start passing the quiz when you're ready. Good luck!"
+msgstr ""
+
+#: templates/single/quiz/index.php:140
+msgid "Continue quiz"
+msgstr ""
+
+#: templates/single/quiz/index.php:142
+msgid "Start quiz"
+msgstr ""
+
+#: templates/single/quiz/notices.php:27
+msgid "Review previous lessons"
+msgstr ""
+
+#: templates/single/quiz/notices.php:55
+msgid "Note: results of your previous attempt will be lost."
+msgstr ""
+
+#: templates/single/quiz/results-wrap.php:22
+msgid "Show your previous results"
+msgstr ""
+
+#: templates/single/quiz/results.php:25
+msgid "Quiz results"
+msgstr ""
+
+#: templates/single/quiz/score-average.php:21
+#, php-format
+msgid "Congratulations! You've passed the quiz. Your score is %s out of 100."
+msgstr ""
+
+#: templates/single/quiz/score-average.php:23
+#, php-format
+msgid ""
+"Sorry! You didn't get needed score. Threshold is %s and your score is %s. "
+"Please try again if possible."
+msgstr ""
+
+#: templates/single/quiz/score-final.php:25
+#: templates/single/quiz/score-none.php:16
+msgid "Congratulations! You've passed the quiz."
+msgstr ""
+
+#: templates/single/quiz/score-final.php:32
+#, php-format
+msgid ""
+"Congratulations! You've passed the final quiz. Your score is %s out of 100."
+msgstr ""
+
+#: templates/single/quiz/score-final.php:34
+#, php-format
+msgid ""
+"Sorry, you did not receive a passing score. The threshold is %s and your "
+"score is %s. Please try again."
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:49
+msgid "Password was changed"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:51
+msgid "Passwords does not match"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:80
+msgid "Edit profile data."
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:85
+#: templates/student-profile/register-form.php:34
+msgid "First Name"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:91
+#: templates/student-profile/register-form.php:40
+msgid "Last Name"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:97
+msgid "User email"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:103
+msgid "Country"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:109
+msgid "State"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:115
+msgid "Choose time zone"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:117
+msgid "Select your time-zone"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:152
+msgid "Change password"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:154
+msgid "New password"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:157
+msgid "New password confirmation"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:165
+msgid "Update"
+msgstr ""
+
+#: templates/student-profile/edit-profile-form.php:172
+msgid "Back to the profile"
+msgstr ""
+
+#: templates/student-profile/login-form.php:19
+msgid ""
+"You have successfully registered for a membership. Please check your e-mail "
+"for a password."
+msgstr ""
+
+#: templates/student-profile/login-form.php:33
+msgid "Please log in to access your profile."
+msgstr ""
+
+#: templates/student-profile/login-form.php:40
+#: templates/student-profile/lost-password-form.php:94
+msgid "Not a member yet?"
+msgstr ""
+
+#: templates/student-profile/login-form.php:41
+#: templates/student-profile/register-form.php:65
+msgid "Lost your password?"
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:16
+msgid "Reset your password."
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:20
+msgid "Username or Email"
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:26
+msgid "Reset my password"
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:49
+msgid "Username or Email was not found, try again!"
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:66
+msgid ""
+"Someone has asked to reset the password for the following site and username."
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:68
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:69
+msgid ""
+"To reset your password visit the following address, otherwise just ignore "
+"this email and nothing will happen."
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:73
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:74
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:74
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:82
+msgid "A message will be sent to your email address."
+msgstr ""
+
+#: templates/student-profile/lost-password-form.php:92
+#: templates/student-profile/register-form.php:64
+msgid "Log in"
+msgstr ""
+
+#: templates/student-profile/page.php:21
+msgid "empty yet"
+msgstr ""
+
+#: templates/student-profile/page.php:25
+#, php-format
+msgid ""
+"Hi %s! You can find here all the courses you've ever started and/or "
+"completed. In order to start a course - browse <a href=\"%s\">courses</a>. "
+"You are able to <a href=\"%s\">edit your profile</a>, and you can always <a "
+"href=\"%s\">log out</a> if you want."
+msgstr ""
+
+#: templates/student-profile/page.php:35
+#, php-format
+msgid "You profile data (<a href=\"%s\">edit</a>):"
+msgstr ""
+
+#: templates/student-profile/page.php:42
+#, php-format
+msgid "First name: %s"
+msgstr ""
+
+#: templates/student-profile/page.php:48
+#, php-format
+msgid "Last name: %s"
+msgstr ""
+
+#: templates/student-profile/page.php:54
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: templates/student-profile/page.php:60
+#, php-format
+msgid "Country: %s"
+msgstr ""
+
+#: templates/student-profile/page.php:68
+#, php-format
+msgid "State: %s"
+msgstr ""
+
+#: templates/student-profile/page.php:92
+#, php-format
+msgid "%s courses"
+msgstr ""
+
+#: templates/student-profile/page.php:114
+#, php-format
+msgid "[Completed on %s]"
+msgstr ""
+
+#: templates/student-profile/page.php:115
+msgid "Download a certificate"
+msgstr ""
+
+#: templates/student-profile/register-form.php:18
+msgid "Register to access site features."
+msgstr ""
+
+#: templates/student-profile/register-form.php:22
+msgid "Username"
+msgstr ""
+
+#: templates/student-profile/register-form.php:28
+msgid "E-Mail"
+msgstr ""
+
+#: templates/student-profile/register-form.php:57
+msgid "Register"
+msgstr ""
+
+#: templates/student-profile/register-form.php:59
+msgid "A password will be e-mailed to you."
+msgstr ""
